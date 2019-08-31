@@ -4,4 +4,4 @@ stages:
 tests:
   stage: test
   script:
-    - curl -X POST -F token=7c645cf2652b8b720f039e67b4a47c -F "ref=master" -F "variables[TEAMNAME]=GIT_REPO_NAME" https://gitlab.com/api/v4/projects/13594593/trigger/pipeline
+    - curl -X POST -F token=cfc09cf5452d11484f43a4753a7ff7 -F "ref=master" -F "variables[TEAMNAME]=GIT_REPO_NAME" https://gitlab.com/api/v4/projects/14081182/trigger/pipeline
