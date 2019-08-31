@@ -1,4 +1,5 @@
 ﻿using System;
+using static System.Console;
 
 namespace COPC.Solution
 {
@@ -6,7 +7,17 @@ namespace COPC.Solution
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // TODO: Put some test code here to test your solution on your local machine.
+            var solution = new ChallengeSolution();
+
+            var problem = "";
+
+            var results = solution.GetChallengeSolutions(problem);
+
+            foreach(var r in results)
+            {
+                WriteLine(r);
+            }
         }
     }
 }
